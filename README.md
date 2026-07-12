@@ -16,6 +16,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-udiya)
 [![Gmail](https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luckyudiya@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-15132b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudraksha127)
+[![Resume](https://img.shields.io/badge/Resume-8B5CF6?style=for-the-badge&logo=readdotcv&logoColor=white)](https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf)
 
 <br/>
 
@@ -229,6 +230,17 @@ Actively looking for an **SDE / Full-Stack / AI-ML internship** to bring this ex
 
 ---
 
+## 📇 Profile Summary Cards
+
+<div align="center">
+
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudraksha127&theme=radical" />
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rudraksha127&theme=radical" />
+
+</div>
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -239,6 +251,10 @@ Actively looking for an **SDE / Full-Stack / AI-ML internship** to bring this ex
 <br/>
 
 <img src="https://streak-stats.demolab.com/?user=rudraksha127&theme=radical&hide_border=true&background=0D1117&stroke=4C1D95&ring=8B5CF6&fire=7C3AED&currStreakLabel=A78BFA" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rudraksha127-wakatime&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C4B5FD&border_color=4C1D95&layout=compact" />
 
 </div>
 
@@ -278,6 +294,37 @@ Actively looking for an **SDE / Full-Stack / AI-ML internship** to bring this ex
 
 ---
 
+## 📅 GitHub Metrics — Calendar & Habits
+
+<div align="center">
+
+<img width="100%" src="./metrics.plugin.isocalendar.svg" alt="Isometric commit calendar" />
+<img width="100%" src="./metrics.plugin.habits.svg" alt="Coding habits" />
+
+</div>
+
+---
+
+## 🧊 3D Contribution Calendar
+
+<div align="center">
+
+<img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+
+</div>
+
+<p align="center"><sub>Prefer a 3D-printable model instead of a README graphic? GitHub's own <a href="https://skyline.github.com">Skyline</a> tool turns a year of contributions into a downloadable, printable STL.</sub></p>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0F0C29,50:2D1B69,100:7C3AED&height=100&section=header&text=%3E_%20compiling%20ambition...&fontSize=26&fontColor=C4B5FD&fontAlignY=55&animation=twinkling&fontFamily=JetBrains%20Mono" width="100%"/>
+
+</div>
+
+---
+
 ## 🎯 Current Focus
 
 ```yaml
@@ -299,6 +346,36 @@ current:
 
 ---
 
+## 💭 Quote of the Day
+
+<div align="center">
+
+[![Quote of the Day](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/PiyushSuthar/github-readme-quotes)
+
+</div>
+
+---
+
+## 🏷️ Holopin Badges
+
+<div align="center">
+
+[![Holopin Board](https://holopin.io/api/user/board?user=rudraksha127)](https://holopin.io/@rudraksha127)
+
+</div>
+
+---
+
+## 🎵 Spotify — Now Playing
+
+<div align="center">
+
+<img src="https://your-deployed-instance.vercel.app/api/spotify" alt="Spotify Now Playing" />
+
+</div>
+
+---
+
 ## 📫 Connect
 
 <div align="center">
@@ -307,6 +384,8 @@ current:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-udiya)
 [![GitHub](https://img.shields.io/badge/GitHub-15132b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudraksha127)
 [![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logoColor=white)](#)
+[![Resume](https://img.shields.io/badge/Resume-8B5CF6?style=for-the-badge&logo=readdotcv&logoColor=white)](https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/rudraksha127)
 
 </div>
 
