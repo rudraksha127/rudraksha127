@@ -1,402 +1,103 @@
+<!--
+Profile README for @rudraksha127
+Keep achievements, certifications, metrics, and project claims accurate and verifiable.
+-->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:4C1D95,100:7C3AED&height=220&section=header&text=Rudraksh%20Udiya&fontSize=44&fontColor=F3E8FF&fontAlignY=34&desc=Full-Stack%20Developer%20%7C%20AI-ML%20Engineer%20%7C%207x%20AWS%20Certified%20Cloud%20Engineer&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:312E81,100:7C3AED&height=210&section=header&text=Rudraksh%20Udiya&fontSize=46&fontColor=FFFFFF&fontAlignY=36&desc=Software%20Engineering%20%7C%20Full-Stack%20%7C%20Applied%20AI&descAlignY=58&descSize=17" alt="Rudraksh Udiya — Software Engineering, Full-Stack and Applied AI" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1200&color=A78BFA&center=true&vCenter=true&width=680&height=45&lines=Full-Stack+Developer;AI-ML+Engineer;7x+AWS+Certified+Cloud+Engineer;Building+Scalable+Cloud-Native+Systems;Agentic+AI+and+RAG+Systems;Open+Source+Contributor" alt="Typing SVG" />
+<a href="https://www.linkedin.com/in/rudraksh-udiya"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:luckyudiya@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/rudraksha127"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-6D28D9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume PDF"/></a>
 
-<br/><br/>
-
-![B.Tech IT](https://img.shields.io/badge/B.Tech-Information%20Technology-6D28D9?style=flat-square&labelColor=15132b)
-![Acropolis Institute](https://img.shields.io/badge/Acropolis%20Institute%20of%20Tech.%20%26%20Research-2024--2028-4F46E5?style=flat-square&labelColor=15132b)
-![Location](https://img.shields.io/badge/Indore%2C%20Madhya%20Pradesh-India-8B5CF6?style=flat-square&labelColor=15132b)
-
-<br/><br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-udiya)
-[![Gmail](https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luckyudiya@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-15132b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudraksha127)
-[![Resume](https://img.shields.io/badge/Resume-8B5CF6?style=for-the-badge&logo=readdotcv&logoColor=white)](https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=rudraksha127&color=7c3aed&style=for-the-badge&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/rudraksha127?label=FOLLOWERS&style=for-the-badge&color=6d28d9&labelColor=15132b)
-![PyVerse Stars](https://img.shields.io/github/stars/rudraksha127/pyverse?label=PYVERSE%20STARS&style=for-the-badge&color=4c1d95&labelColor=15132b)
+![Profile views](https://komarev.com/ghpvc/?username=rudraksha127&style=flat-square&color=7C3AED&label=PROFILE+VIEWS)
 
 </div>
 
----
+## 👋 About Me
 
-## 🧭 About Me
+I'm an Information Technology undergraduate at **Acropolis Institute of Technology & Research, Indore (2024–2028)**, interested in building useful software that combines full-stack engineering, cloud infrastructure, and applied AI.
 
-I'm an Information Technology undergraduate at **Acropolis Institute of Technology and Research, Indore** (2024–2028), building production-grade software at the intersection of **full-stack engineering, cloud architecture, and applied AI**.
+I enjoy taking ideas from requirements to implementation: shaping the architecture, building the interface and APIs, integrating data and AI workflows, and improving deployment reliability. My focus is on practical, maintainable systems—not just demos.
 
-My work spans the full stack — React/Next.js interfaces backed by Node.js and Flask services, deployed on cloud-native AWS infrastructure (7× certified across Cloud, AI, DevOps, and Data Engineering). I spend most of my time building things that ship: open-source developer tooling, automated CI/CD pipelines, and LLM-powered systems built on the OpenAI, Claude (Anthropic), Gemini, and Llama APIs.
+- 💻 **Focus:** Full-stack development, backend engineering, cloud and applied AI
+- 🌱 **Learning:** Data structures & algorithms, system design, secure deployment, and AI application architecture
+- 🛠️ **Building:** Developer tools and AI-enabled applications
+- 🤝 **Open to:** Software engineering internships, project collaboration, and open-source contributions
 
-I approach engineering with a product mindset — as invested in *why* something is being built as *how* it's built — and default to designing for scale even at the prototype stage.
+## 🧰 Technologies
 
-**Currently:**
-- 🎓 Pursuing B.Tech in Information Technology
-- ☁️ Deepening multi-cloud architecture (AWS + GCP) and Kubernetes-based deployments
-- 🤖 Building agentic AI systems and RAG pipelines on production LLM APIs
-- 📈 400+ problems solved on GeeksforGeeks with a 160-day consistent DSA streak
+<div align="center">
 
-**Open To:**
+<img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python,html,css,react,nextjs,tailwind,nodejs,express,flask,mongodb,postgres,mysql,redis,aws,docker,githubactions,git,github,figma&perline=8" alt="Technologies: C++, Java, JavaScript, TypeScript, Python, React, Next.js, Node.js, Express, Flask, MongoDB, PostgreSQL, MySQL, Redis, AWS, Docker, GitHub Actions, Git and Figma"/>
 
-| | |
-|---|---|
-| 💼 | SDE / Full-Stack Internships |
-| 🤖 | AI/ML & GenAI Engineering Roles |
-| 🌐 | Open-Source Collaboration |
-| ⚡ | Freelance Cloud & Automation Projects |
+</div>
 
----
+**Languages:** C++, Java, JavaScript, TypeScript, Python  
+**Frontend:** React, Next.js, HTML, CSS, Tailwind CSS  
+**Backend & data:** Node.js, Express, Flask, MongoDB, PostgreSQL, MySQL, Redis  
+**Cloud & engineering:** AWS, Docker, GitHub Actions, Git, CI/CD  
+**AI application areas:** LLM API integration, retrieval-augmented generation (RAG), agent workflows, multimodal applications
 
-## 🛠️ Tech Stack
+> I continuously update this list as I build and validate projects. A tool appearing here does not imply equal depth of production experience across every technology.
 
-**Languages**
+## 🚀 Selected Projects
 
-<img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,py&theme=dark" />
+### [PyVerse — Python Intelligence Ecosystem](https://github.com/rudraksha127/pyverse)
 
-**Frontend**
+An evolving project concept focused on Python package intelligence, an AI-assisted coding experience, and learning workflows.
 
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark" />
+- **Direction:** Python tooling, AI-assisted developer workflows, and knowledge retrieval
+- **Status:** Early-stage / evolving — public repository contents and functionality should be reviewed for the latest state
+- **Next step:** Document the working MVP, architecture, setup instructions, screenshots, and a verifiable demo as features become available
 
-**Backend & Databases**
+### More projects
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,flask,mongodb,postgres,mysql,redis,dynamodb&theme=dark" />
+I am building and refining additional full-stack and AI-enabled projects. I will feature projects here when their repositories include enough implementation detail for someone else to understand, run, and evaluate them.
 
-**Cloud, DevOps & Tooling**
+**Want to collaborate?** Reach out on [LinkedIn](https://www.linkedin.com/in/rudraksh-udiya) or by [email](mailto:luckyudiya@gmail.com).
 
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,terraform,githubactions,git,github,figma,vscode&theme=dark" />
+## 🏅 Certifications & Achievements
 
-**Also working with:** Radix UI · Socket.io · JWT · Clerk Auth · Firebase Auth · Stripe · OAuth 2.0 · WebRTC (Zegocloud) · Cloudinary · Twilio · Amazon Lex · VAPI · ElevenLabs · WhisperX
+I use this section for credentials and milestones that I can verify with a certificate, public profile, or direct artifact.
 
----
+- AWS and cloud-related certifications — see the [resume PDF](https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf) for the current list.
+- Coding practice: [GeeksforGeeks](https://www.geeksforgeeks.org/user/rudraksha127) · [LeetCode](https://leetcode.com/rudraksha127) · [HackerRank](https://www.hackerrank.com/rudraksha127) · [CodeChef](https://www.codechef.com/users/rudraksha127)
 
-## 🤖 AI / ML Expertise
+*Certification names, counts, coding totals, and streaks should be kept in sync with the underlying certificate/profile evidence.*
 
-| Domain | Proficiency | Details |
-|---|---|---|
-| LLM Integration | Advanced | OpenAI API, Claude (Anthropic) API, Meta Llama, Google Gemini — production API integration |
-| Agentic AI Systems | Advanced | Prompt engineering, multi-step reasoning, tool-augmented agent pipelines |
-| RAG Architecture | Advanced | Retrieval-Augmented Generation for grounded, context-aware responses |
-| Cloud AI/ML | Advanced | AWS SageMaker · AWS Certified ML Engineer – Associate · AWS Certified AI Practitioner |
-| Voice AI | Intermediate | Amazon Lex, VAPI, ElevenLabs, WhisperX (speech-to-text), TTS pipelines |
-| Computer Vision & Multimodal | Intermediate | Multimodal AI pipelines, image & audio processing |
+## 📊 GitHub Activity
 
----
+<div align="center">
 
-## 🚀 Featured Projects
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=rudraksha127&show_icons=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB" alt="GitHub account statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rudraksha127&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E5E7EB" alt="Most-used languages on GitHub" />
+
+<img width="95%" src="https://github-readme-streak-stats.herokuapp.com/?user=rudraksha127&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=E5E7EB&sideLabels=E5E7EB&dates=9CA3AF" alt="GitHub contribution streak" />
+
+</div>
 
 <details>
-<summary><strong>🧩 AI-Powered UI Component Library (Shadcn-style)</strong></summary>
+<summary><strong>Contribution snake (generated by GitHub Actions)</strong></summary>
 <br/>
-
-Describe a UI component in plain English and get back production-ready, type-safe React + Tailwind code — instantly. Built as an installable NPM package to remove hours of repetitive component-building from a developer's workflow.
-
-| | |
-|---|---|
-| **Stack** | React · TypeScript · OpenAI API · Tailwind CSS · Radix UI · NPM |
-| **Scale** | Published as a public, installable open-source NPM package |
-| **Performance** | Natural-language prompt → production-ready component, generated instantly |
-| **Security** | Client-facing utility; no persistent or sensitive user data handled |
-| **Impact** | Removes hours of repetitive boilerplate from component-building workflows |
-| **Repository** | [View on GitHub](#) |
-
+<div align="center">
+<img width="95%" src="https://raw.githubusercontent.com/rudraksha127/rudraksha127/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake in dark mode"/>
+</div>
 </details>
 
-<details>
-<summary><strong>⚙️ DevOps CI/CD Pipeline on AWS</strong></summary>
-<br/>
+## 📫 Let's Connect
 
-A fully automated build → test → deploy pipeline that replaced slow, manual, error-prone releases with a production-grade AWS deployment process.
-
-| | |
-|---|---|
-| **Stack** | AWS CodePipeline · CodeBuild · CodeDeploy · GitHub Actions · CloudFormation · Terraform · S3 |
-| **Scale** | End-to-end automated release pipeline for production AWS workloads |
-| **Performance** | Deployment time cut from **30 minutes to under 4 minutes** |
-| **Security** | Infrastructure as Code (CloudFormation + Terraform) for consistent, auditable, drift-free deployments |
-| **Impact** | Fully automated release process — zero manual deployment steps |
-| **Repository** | [View on GitHub](#) |
-
-</details>
-
-<details>
-<summary><strong>🐍 PyVerse — Python Intelligence Ecosystem</strong> <sub>(in active development)</sub></summary>
-<br/>
-
-An ecosystem-scale platform spanning the Python package landscape — combining package intelligence across a large portion of PyPI, an AI-powered coding assistant, and an integrated learning platform for students and educators.
-
-| | |
-|---|---|
-| **Stack** | Python · Claude (Anthropic) API · RAG Architecture · Modern Web Stack |
-| **Scale** | Ecosystem-wide platform architected around the PyPI package landscape |
-| **Performance** | In active development |
-| **Security** | Built with staged rollout, IP strategy, and AI-safety considerations from day one |
-| **Impact** | Unifies Python package intelligence, an AI coding assistant with RAG (PyBrain), and an LMS for students & professors |
-| **Repository** | [View on GitHub](https://github.com/rudraksha127/pyverse) |
-
-</details>
-
----
-
-## 💼 Experience
-
-<details>
-<summary><strong>Full-Stack & Cloud Development — Independent Projects</strong> <sub>2025 – Present</sub></summary>
-<br/>
-
-Designing and shipping end-to-end products — from UI to infrastructure — alongside a B.Tech in Information Technology.
-
-- Built and published an open-source NPM package (AI-powered React/Tailwind component generator)
-- Designed and deployed a fully automated CI/CD pipeline on AWS, cutting deployment time by over 85%
-- Actively architecting PyVerse — a Python ecosystem platform combining package intelligence, an AI coding assistant (PyBrain), and an LMS
-- Earned 7 AWS certifications spanning Cloud, AI, DevOps, and Data Engineering
-
-`React` `Next.js` `Node.js` `AWS` `Terraform` `Claude API` `RAG`
-
-</details>
-
-<details>
-<summary><strong>Hackathon Contributor — Team Nexus Forge</strong> <sub>Redrob AI Hackathon, 2026</sub></summary>
-<br/>
-
-Collaborated within a cross-functional team to design and prototype an AI-driven solution under hackathon time constraints.
-
-`Agentic AI` `Rapid Prototyping` `Team Collaboration`
-
-</details>
-
-<details>
-<summary><strong>Currently Seeking</strong></summary>
-<br/>
-
-Actively looking for an **SDE / Full-Stack / AI-ML internship** to bring this experience to real-world, production-scale challenges.
-
-</details>
-
----
-
-## 🏆 Achievements
+- **LinkedIn:** [linkedin.com/in/rudraksh-udiya](https://www.linkedin.com/in/rudraksh-udiya)
+- **Email:** [luckyudiya@gmail.com](mailto:luckyudiya@gmail.com)
+- **GitHub:** [github.com/rudraksha127](https://github.com/rudraksha127)
+- **Resume:** [Open PDF](https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf)
 
 <div align="center">
 
-| Recognition | Details |
-|---|---|
-| **7× AWS Certifications** | Foundational & Associate level across Cloud, AI, DevOps, and Data Engineering |
-| **GitHub Copilot Certified** | Early adopter of AI-assisted development tooling |
-| **400+ Problems Solved** | Active contributor on GeeksforGeeks |
-| **160-Day Coding Streak** | Consistent, daily DSA problem-solving discipline |
-| **NCC 'A' Certificate** | Nationally certified discipline and leadership |
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:312E81,100:0B1020&height=100&section=footer" alt="Purple wave footer"/>
 
-</div>
-
----
-
-## 📜 Certifications
-
-**Amazon Web Services (AWS) — 7× Certified (2026)**
-
-![Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-6D28D9?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AI Practitioner](https://img.shields.io/badge/AWS-AI%20Practitioner-6D28D9?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Solutions Architect Associate](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-4F46E5?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Developer Associate](https://img.shields.io/badge/AWS-Developer%20Associate-4F46E5?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Data Engineer Associate](https://img.shields.io/badge/AWS-Data%20Engineer%20Associate-7C3AED?style=for-the-badge&logo=amazonaws&logoColor=white)
-![ML Engineer Associate](https://img.shields.io/badge/AWS-ML%20Engineer%20Associate-7C3AED?style=for-the-badge&logo=amazonaws&logoColor=white)
-![CloudOps Engineer Associate](https://img.shields.io/badge/AWS-CloudOps%20Engineer%20Associate-8B5CF6?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-**Other Certifications (2026)**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas%20Database%20Administrator-6D28D9?style=for-the-badge&logo=mongodb&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Copilot%20Certified-4F46E5?style=for-the-badge&logo=github&logoColor=white)
-![Red Hat](https://img.shields.io/badge/Red%20Hat-Java%20EE%20(AD183)-7C3AED?style=for-the-badge&logo=redhat&logoColor=white)
-![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-DSA%20Self--Paced-8B5CF6?style=for-the-badge&logo=geeksforgeeks&logoColor=white)
-
----
-
-## 💻 Coding Profiles
-
-<div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-15132b?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/rudraksha127)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-15132b?style=for-the-badge&logo=geeksforgeeks&logoColor=2F8D46)](https://www.geeksforgeeks.org/user/rudraksha127)
-[![HackerRank](https://img.shields.io/badge/HackerRank-15132b?style=for-the-badge&logo=hackerrank&logoColor=00EA64)](https://www.hackerrank.com/rudraksha127)
-[![CodeChef](https://img.shields.io/badge/CodeChef-15132b?style=for-the-badge&logo=codechef&logoColor=5B4638)](https://www.codechef.com/users/rudraksha127)
-
-</div>
-
----
-
-## 📇 Profile Summary Cards
-
-<div align="center">
-
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rudraksha127&theme=radical" />
-<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=rudraksha127&theme=radical" />
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=rudraksha127&show_icons=true&count_private=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C4B5FD&border_color=4C1D95" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rudraksha127&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C4B5FD&border_color=4C1D95" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=rudraksha127&theme=radical&hide_border=true&background=0D1117&stroke=4C1D95&ring=8B5CF6&fire=7C3AED&currStreakLabel=A78BFA" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=rudraksha127-wakatime&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C4B5FD&border_color=4C1D95&layout=compact" />
-
-</div>
-
----
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=rudraksha127&theme=radical&no-frame=true&row=2&column=4&margin-w=10&margin-h=10" />
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=rudraksha127&theme=react-dark&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C4B5FD&area=true&area_color=4C1D95" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rudraksha127/rudraksha127/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rudraksha127/rudraksha127/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/rudraksha127/rudraksha127/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-## 📅 GitHub Metrics — Calendar & Habits
-
-<div align="center">
-
-<img width="100%" src="./metrics.plugin.isocalendar.svg" alt="Isometric commit calendar" />
-<img width="100%" src="./metrics.plugin.habits.svg" alt="Coding habits" />
-
-</div>
-
----
-
-## 🧊 3D Contribution Calendar
-
-<div align="center">
-
-<img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
-
-</div>
-
-<p align="center"><sub>Prefer a 3D-printable model instead of a README graphic? GitHub's own <a href="https://skyline.github.com">Skyline</a> tool turns a year of contributions into a downloadable, printable STL.</sub></p>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=blur&color=0:0F0C29,50:2D1B69,100:7C3AED&height=100&section=header&text=%3E_%20compiling%20ambition...&fontSize=26&fontColor=C4B5FD&fontAlignY=55&animation=twinkling&fontFamily=JetBrains%20Mono" width="100%"/>
-
-</div>
-
----
-
-## 🎯 Current Focus
-
-```yaml
-current:
-  learning:
-    - Advanced System Design & Distributed Systems
-    - Agentic AI Architectures
-  building:
-    - "PyVerse: Python Intelligence Ecosystem (github.com/rudraksha127/pyverse)"
-    - "PyBrain: AI Coding Assistant, Claude API + RAG"
-  exploring:
-    - Multimodal AI & Voice Agents
-    - Kubernetes at Scale (EKS)
-  open_to:
-    - SDE / Full-Stack Internships
-    - AI-ML Engineering Roles
-    - Open Source Collaboration
-```
-
----
-
-## 💭 Quote of the Day
-
-<div align="center">
-
-[![Quote of the Day](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/PiyushSuthar/github-readme-quotes)
-
-</div>
-
----
-
-## 🏷️ Holopin Badges
-
-<div align="center">
-
-[![Holopin Board](https://holopin.io/api/user/board?user=rudraksha127)](https://holopin.io/@rudraksha127)
-
-</div>
-
----
-
-## 🎵 Spotify — Now Playing
-
-<div align="center">
-
-<img src="https://your-deployed-instance.vercel.app/api/spotify" alt="Spotify Now Playing" />
-
-</div>
-
----
-
-## 📫 Connect
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luckyudiya@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-udiya)
-[![GitHub](https://img.shields.io/badge/GitHub-15132b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rudraksha127)
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logoColor=white)](#)
-[![Resume](https://img.shields.io/badge/Resume-8B5CF6?style=for-the-badge&logo=readdotcv&logoColor=white)](https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/rudraksha127)
-
-</div>
-
----
-
-<div align="center">
-
-<br/>
-
-*"Engineering isn't just about writing code — it's about designing systems that scale, endure, and empower."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4C1D95,100:0F0C29&height=120&section=footer&animation=fadeIn" width="100%"/>
+<sub>Building thoughtfully. Learning continuously. Shipping with purpose.</sub>
 
 </div>
