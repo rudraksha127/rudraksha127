@@ -1,82 +1,95 @@
 <!--
 Profile README: @rudraksha127
-Visual direction: Midnight Aurora — deep navy, violet, and restrained electric-cyan accents.
-Keep project and credential claims aligned with public repository evidence.
+Design system: Midnight Aurora — midnight navy, violet, electric cyan, and restrained neutrals.
+Keep project status and credentials accurate; replace outdated evidence before job applications.
 -->
 
 <div align="center">
 
-<img src="./assets/readme/midnight-aurora-hero.svg" width="100%" alt="Rudraksh Udiya — Software Engineering, Full-Stack Development, and Applied AI. Midnight Aurora 3D-inspired banner." />
+<img src="./assets/readme/midnight-aurora-hero.svg" width="100%" alt="Rudraksh Udiya — Full-Stack Engineering and Applied AI. Dark navy and violet banner with dimensional orbital artwork." />
 
-<a href="https://www.linkedin.com/in/rudraksh-udiya"><img src="https://img.shields.io/badge/LinkedIn-Connect-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-<a href="mailto:luckyudiya@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-22D3EE?style=for-the-badge&logo=gmail&logoColor=0B1020" alt="Send an email" /></a>
-<a href="https://github.com/rudraksha127"><img src="https://img.shields.io/badge/GitHub-Explore%20my%20work-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore my GitHub repositories" /></a>
+<a href="https://github.com/rudraksha127/Portfolio"><img src="https://img.shields.io/badge/Portfolio-Source-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio source repository" /></a>
+<a href="https://www.linkedin.com/in/rudraksh-udiya"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="https://raw.githubusercontent.com/rudraksha127/rudraksha127/main/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-22D3EE?style=for-the-badge&logo=adobeacrobatreader&logoColor=0B1020" alt="Resume PDF" /></a>
+<a href="mailto:luckyudiya@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact by email" /></a>
 
 </div>
 
 <p align="center">
-  <a href="#about">About</a> ·
-  <a href="#toolkit">Toolkit</a> ·
-  <a href="#selected-projects">Projects</a> ·
-  <a href="#coding-profiles">Coding Profiles</a> ·
-  <a href="#github-activity">GitHub Activity</a>
+  <a href="#profile-at-a-glance">Profile</a> ·
+  <a href="#selected-work">Selected Work</a> ·
+  <a href="#technical-toolkit">Toolkit</a> ·
+  <a href="#credentials--coding-profiles">Credentials</a> ·
+  <a href="#github-activity">Activity</a>
 </p>
 
-## About
+## Profile at a glance
 
-I'm an **Information Technology undergraduate at Acropolis Institute of Technology & Research, Indore (2024–2028)**, interested in building useful software across full-stack engineering, cloud, and applied AI.
+I'm an **Information Technology undergraduate at Acropolis Institute of Technology & Research, Indore (2024–2028)**, focused on **full-stack software engineering and applied AI**.
 
-I enjoy working end to end—from shaping a problem and building the interface/API to connecting data workflows, testing behavior, and improving delivery. I’m strengthening my software engineering fundamentals while building practical projects.
+I like building practical systems end to end: designing clear user workflows, implementing APIs and data pipelines, testing edge cases, and documenting how a project runs.
 
-- **Focus:** Full-stack development, backend systems, cloud fundamentals, and AI-enabled applications
-- **Exploring:** LLM application patterns, retrieval-augmented generation (RAG), and dependable automation
-- **Open to:** Software engineering internships, thoughtful collaborations, and open-source work
+- **Target roles:** SDE / Full-Stack Engineering internships
+- **Engineering interests:** Reliable backend services, data-intensive applications, developer tools, and AI-enabled workflows
+- **Current learning:** DSA, system design, application security, and dependable AI integration
 
-## Toolkit
+## Selected work
+
+### [01 · AI MANTHAN 2.0 — Event PWA](https://github.com/rudraksha127/AI-MANTHAN-2K26) · [Live site](https://www.nex-ai.in)
+
+A mobile-first event platform with installable PWA support, service-worker caching, offline fallback, and a queued support workflow.
+
+**Stack:** Next.js · React · Tailwind CSS · Progressive Web App
+
+**Why it matters:** Demonstrates a deployed web experience alongside offline-aware frontend behavior. The live site was accessible during this review.
+
+### [02 · Finance AI — Time-Series Research Pipeline](https://github.com/rudraksha127/Finance-Ai) · [Integration & QA report](https://github.com/rudraksha127/Finance-Ai/blob/main/docs/MVP_INTEGRATION_QA_REPORT.md)
+
+A reproducible financial-data research workflow spanning ingestion, data quality, feature/label generation, dataset versioning, model experiments, backtesting, an inference API, and a dashboard.
+
+**Stack:** Python · Time-series ML · API · TypeScript dashboard
+
+**Scope note:** This is a research-only system. The repository explicitly states that it does not execute live trades or broker orders.
+
+### [03 · Abhedya-Drishti / FraudLens AI — Cyber-Forensics Prototype](https://github.com/rudraksha127/Abhedya-Drishti)
+
+A financial transaction analysis prototype built around structured ingestion, vectorized data processing, transaction-graph exploration, and investigation-triage outputs.
+
+**Stack:** Next.js · FastAPI · Polars · DuckDB · NumPy
+
+**Scope note:** Algorithmic outputs are investigative leads for human review—not a determination of guilt or a claim of legal admissibility.
+
+### [04 · Portfolio — Interactive Developer Website](https://github.com/rudraksha127/Portfolio)
+
+A space-inspired portfolio interface with modular sections for projects, skills, education, experience, certifications, and contact.
+
+**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS · Three.js · Framer Motion
+
+**Explore:** Source code and implementation details are available in the repository.
+
+## Technical toolkit
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,react,nextjs,tailwind,nodejs,express,flask,mongodb,postgres,aws,docker,githubactions,git,github&perline=9&theme=dark" alt="Selected tools: C++, Java, Python, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Flask, MongoDB, PostgreSQL, AWS, Docker, GitHub Actions and Git" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,js,ts,react,nextjs,tailwind,nodejs,express,flask,mongodb,postgres,aws,docker,githubactions,git,github&perline=9&theme=dark" alt="Selected technologies: C++, Java, Python, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, Flask, MongoDB, PostgreSQL, AWS, Docker, GitHub Actions, Git and GitHub" />
 </div>
 
-- **Languages:** C++, Java, Python, JavaScript, TypeScript
-- **Frontend:** React, Next.js, HTML, CSS, Tailwind CSS
-- **Backend & data:** Node.js, Express, Flask, MongoDB, PostgreSQL
-- **Cloud & delivery:** AWS, Docker, Git, GitHub Actions, CI/CD fundamentals
-- **Applied AI:** LLM integrations, RAG patterns, agent workflows, multimodal applications
+| Area | Selected skills |
+|---|---|
+| **Languages** | C++, Java, Python, JavaScript, TypeScript |
+| **Frontend** | React, Next.js, HTML, CSS, Tailwind CSS |
+| **Backend & data** | Node.js, Express, Flask, MongoDB, PostgreSQL |
+| **Cloud & delivery** | AWS, Docker, Git, GitHub Actions, CI/CD fundamentals |
+| **Applied AI** | LLM integration, RAG patterns, agent workflows, multimodal applications |
 
-*This is a working toolkit—not a claim of equal proficiency in every technology.*
+*This is a working toolkit, not a claim of equal proficiency in every technology. Project repositories provide the implementation context.*
 
-## Selected Projects
+## Credentials & coding profiles
 
-### [01 · Portfolio — Interactive Developer Portfolio](https://github.com/rudraksha127/Portfolio)
+The existing profile lists AWS certifications across Cloud, AI, Architecture, Development, Data Engineering, Machine Learning, and Cloud Operations, plus other technical credentials. Use the resume link above for the current credential list; make sure the PDF is up to date before applying.
 
-A space-inspired portfolio website with modular sections for introduction, skills, education, projects, certifications, experience, and contact.
+**Coding profiles:** [GeeksforGeeks](https://www.geeksforgeeks.org/user/rudraksha127) · [LeetCode](https://leetcode.com/rudraksha127) · [HackerRank](https://www.hackerrank.com/rudraksha127) · [CodeChef](https://www.codechef.com/users/rudraksha127)
 
-**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS · Three.js ecosystem
-
-**Status:** Source code is available in the public repository. A live demo link is not listed because a verified deployment URL was not found.
-
-### [02 · Finance AI — Financial Time-Series Research](https://github.com/rudraksha127/Finance-Ai)
-
-A documented research workflow covering market-data ingestion, data-quality checks, feature and label preparation, versioned datasets, model experiments, backtesting, an inference API, and a dashboard.
-
-**Stack:** Python · ML pipeline · API · TypeScript dashboard
-
-**Status:** The repository's integration/QA report describes a research-only MVP. It explicitly does not provide live trading or broker-execution capability.
-
-### [03 · AlgoZen — Gamified DSA Learning](https://github.com/rudraksha127/AlgoZen)
-
-A data-structures-and-algorithms learning-platform project designed to make practice more engaging, with a separate client/server codebase.
-
-**Stack:** React · Vite · Node.js · Express · MongoDB
-
-**Status:** In progress. The repository roadmap still lists major product phases as unfinished.
-
-## Coding Profiles
-
-[GeeksforGeeks](https://www.geeksforgeeks.org/user/rudraksha127) · [LeetCode](https://leetcode.com/rudraksha127) · [HackerRank](https://www.hackerrank.com/rudraksha127) · [CodeChef](https://www.codechef.com/users/rudraksha127)
-
-## GitHub Activity
+## GitHub activity
 
 <div align="center">
 
@@ -85,10 +98,10 @@ A data-structures-and-algorithms learning-platform project designed to make prac
 </div>
 
 <details>
-  <summary><strong>View contribution snake</strong></summary>
+  <summary><strong>Contribution snake</strong></summary>
   <br/>
   <div align="center">
-    <img width="95%" src="https://raw.githubusercontent.com/rudraksha127/rudraksha127/output/github-contribution-grid-snake-dark.svg" alt="Contribution graph rendered as a snake, generated by this profile repository's GitHub Actions workflow" />
+    <img width="95%" src="https://raw.githubusercontent.com/rudraksha127/rudraksha127/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake generated by the profile repository's workflow" />
   </div>
 </details>
 
