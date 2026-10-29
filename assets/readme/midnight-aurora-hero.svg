@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rudraksh Udiya — Midnight Aurora developer profile</title>
+  <desc id="desc">A dark navy and violet developer banner with cyan accents, dimensional glass-like geometry, and an abstract 3D orbital sphere.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset=".56" stop-color="#11102A"/>
+      <stop offset="1" stop-color="#24134B"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4B5FD"/>
+      <stop offset=".48" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#5B21B6"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A5F3FC"/>
+      <stop offset=".48" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+    <radialGradient id="orb" cx=".28" cy=".2" r=".9">
+      <stop offset="0" stop-color="#DDD6FE" stop-opacity=".96"/>
+      <stop offset=".24" stop-color="#A78BFA" stop-opacity=".9"/>
+      <stop offset=".58" stop-color="#7C3AED" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#312E81" stop-opacity=".34"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDE9FE" stop-opacity=".20"/>
+      <stop offset=".5" stop-color="#8B5CF6" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".08"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#A5B4FC" opacity=".16"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#020617" flood-opacity=".55"/>
+    </filter>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="1200" height="360" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#dots)" opacity=".72"/>
+    <circle cx="1038" cy="170" r="170" fill="#7C3AED" opacity=".16" filter="url(#glow)"/>
+    <circle cx="926" cy="284" r="145" fill="#06B6D4" opacity=".11" filter="url(#glow)"/>
+    <path d="M0 300 C240 260 395 352 636 292 S1000 235 1200 280 V360 H0Z" fill="#0B1020" opacity=".32"/>
+    <path d="M0 318 C260 276 420 360 690 307 S1015 264 1200 300" fill="none" stroke="#8B5CF6" stroke-opacity=".22" stroke-width="1.2"/>
+    <path d="M0 334 C260 292 420 376 690 323 S1015 280 1200 316" fill="none" stroke="#22D3EE" stroke-opacity=".13" stroke-width="1.2"/>
+
+    <!-- Profile monogram -->
+    <g transform="translate(72 54)">
+      <rect width="48" height="48" rx="15" fill="url(#glass)" stroke="#C4B5FD" stroke-opacity=".64"/>
+      <path d="M14 33V15h6.5c5.4 0 8.4 2.4 8.4 6.7 0 4.1-3 6.4-8.4 6.4H14m14-13v18" fill="none" stroke="#EDE9FE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="35.5" cy="32.5" r="3" fill="#22D3EE"/>
+    </g>
+
+    <!-- Typography -->
+    <text x="72" y="146" fill="#A5F3FC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3.2">SOFTWARE • CLOUD • APPLIED AI</text>
+    <text x="68" y="206" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="54" font-weight="760" letter-spacing="-1.8">Rudraksh Udiya</text>
+    <text x="72" y="246" fill="#D1D5DB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="19" font-weight="450">Full-Stack Development  <tspan fill="#22D3EE">/</tspan>  AI Engineering</text>
+    <g transform="translate(72 278)">
+      <rect width="220" height="34" rx="17" fill="#111827" fill-opacity=".8" stroke="#8B5CF6" stroke-opacity=".7"/>
+      <circle cx="16" cy="17" r="4" fill="#22D3EE"/>
+      <text x="30" y="21.5" fill="#E5E7EB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="650" letter-spacing="1.1">BUILD · LEARN · SHIP</text>
+    </g>
+
+    <!-- Right-side dimensional orbital sculpture -->
+    <g transform="translate(922 178)" filter="url(#shadow)">
+      <ellipse cx="10" cy="92" rx="158" ry="25" fill="#020617" opacity=".52"/>
+      <ellipse cx="0" cy="2" rx="142" ry="58" transform="rotate(-27)" fill="none" stroke="#22D3EE" stroke-opacity=".82" stroke-width="1.5"/>
+      <ellipse cx="0" cy="0" rx="150" ry="60" transform="rotate(43)" fill="none" stroke="#A78BFA" stroke-opacity=".7" stroke-width="1.4"/>
+      <ellipse cx="0" cy="0" rx="110" ry="42" transform="rotate(83)" fill="none" stroke="#DDD6FE" stroke-opacity=".34" stroke-width="1.1"/>
+      <circle cx="0" cy="0" r="71" fill="url(#orb)" stroke="#DDD6FE" stroke-opacity=".55" stroke-width="1.2"/>
+      <ellipse cx="-19" cy="-24" rx="30" ry="17" fill="#FFFFFF" opacity=".10" transform="rotate(-28)"/>
+      <path d="M-69 -2 C-44 -26 -23 -26 0 0 S41 27 69 -3" fill="none" stroke="#EDE9FE" stroke-opacity=".55" stroke-width="1"/>
+      <path d="M-54 -39 C-13 -10 6 10 54 39" fill="none" stroke="#22D3EE" stroke-opacity=".48" stroke-width="1"/>
+      <path d="M-54 39 C-12 8 14 -13 54 -39" fill="none" stroke="#DDD6FE" stroke-opacity=".42" stroke-width="1"/>
+      <circle cx="-28" cy="-38" r="5" fill="#EDE9FE"/>
+      <circle cx="51" cy="17" r="4.5" fill="#22D3EE"/>
+      <circle cx="-11" cy="67" r="3.5" fill="#C4B5FD"/>
+    </g>
+
+    <!-- Floating isometric glass blocks -->
+    <g filter="url(#shadow)" stroke-linejoin="round">
+      <g transform="translate(1064 76)">
+        <path d="M0 18 26 3 52 18 26 33Z" fill="#C4B5FD" fill-opacity=".8" stroke="#EDE9FE" stroke-opacity=".75"/>
+        <path d="M0 18 26 33 26 62 0 47Z" fill="#6D28D9" fill-opacity=".92" stroke="#A78BFA" stroke-opacity=".78"/>
+        <path d="M26 33 52 18 52 47 26 62Z" fill="#4C1D95" fill-opacity=".9" stroke="#8B5CF6" stroke-opacity=".9"/>
+        <path d="M10 24 26 34 26 51" fill="none" stroke="#DDD6FE" stroke-opacity=".6"/>
+      </g>
+      <g transform="translate(792 210) scale(.72)">
+        <path d="M0 18 26 3 52 18 26 33Z" fill="#A5F3FC" fill-opacity=".82" stroke="#CFFAFE" stroke-opacity=".8"/>
+        <path d="M0 18 26 33 26 62 0 47Z" fill="#0E7490" fill-opacity=".92" stroke="#22D3EE" stroke-opacity=".9"/>
+        <path d="M26 33 52 18 52 47 26 62Z" fill="#164E63" fill-opacity=".94" stroke="#67E8F9" stroke-opacity=".72"/>
+      </g>
+      <g transform="translate(1090 240) scale(.54)">
+        <path d="M0 18 26 3 52 18 26 33Z" fill="#DDD6FE" fill-opacity=".8" stroke="#EDE9FE" stroke-opacity=".7"/>
+        <path d="M0 18 26 33 26 62 0 47Z" fill="#7C3AED" fill-opacity=".95" stroke="#A78BFA"/>
+        <path d="M26 33 52 18 52 47 26 62Z" fill="#4C1D95" fill-opacity=".96" stroke="#8B5CF6"/>
+      </g>
+    </g>
+
+    <g fill="#E0E7FF">
+      <circle cx="777" cy="73" r="2.2" opacity=".8"/>
+      <circle cx="834" cy="49" r="1.5" opacity=".6"/>
+      <circle cx="1141" cy="117" r="2" opacity=".7"/>
+      <circle cx="1171" cy="196" r="1.6" opacity=".7"/>
+      <circle cx="1014" cy="318" r="2.1" opacity=".6"/>
+      <circle cx="803" cy="286" r="1.6" opacity=".6"/>
+    </g>
+    <text x="1119" y="324" text-anchor="end" fill="#9CA3AF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="2">MIDNIGHT AURORA</text>
+  </g>
+</svg>
