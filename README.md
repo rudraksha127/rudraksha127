@@ -80,9 +80,9 @@ A space-inspired portfolio interface with modular sections for projects, skills,
 
 ## Credentials & coding profiles
 
-**AWS certifications listed in the existing profile:** Cloud Practitioner · AI Practitioner · Solutions Architect Associate · Developer Associate · Data Engineer Associate · ML Engineer Associate · CloudOps Engineer Associate
+**AWS certifications:** Cloud Practitioner · AI Practitioner · Solutions Architect Associate · Developer Associate · Data Engineer Associate · ML Engineer Associate · CloudOps Engineer Associate
 
-**Other credentials listed in the existing profile:** GitHub Copilot Certified · MongoDB Atlas Database Administrator · Red Hat Java EE (AD183) · NCC 'A' Certificate
+**Other credentials:** GitHub Copilot Certified · MongoDB Atlas Database Administrator · Red Hat Java EE (AD183) · NCC 'A' Certificate
 
 **Coding profiles:** [GeeksforGeeks](https://www.geeksforgeeks.org/user/rudraksha127) · [LeetCode](https://leetcode.com/rudraksha127) · [HackerRank](https://www.hackerrank.com/rudraksha127) · [CodeChef](https://www.codechef.com/users/rudraksha127)
 
