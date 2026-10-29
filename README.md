@@ -1,7 +1,6 @@
 <!--
 Profile README: @rudraksha127
 Design system: Midnight Aurora — midnight navy, violet, electric cyan, and restrained neutrals.
-Keep project status and credentials accurate; replace outdated evidence before job applications.
 -->
 
 <div align="center">
@@ -39,32 +38,28 @@ I like building practical systems end to end: designing clear user workflows, im
 
 A mobile-first event platform with installable PWA support, service-worker caching, offline fallback, and a queued support workflow.
 
-**Stack:** Next.js · React · Tailwind CSS · Progressive Web App
-
-**Why it matters:** Demonstrates a deployed web experience alongside offline-aware frontend behavior. The live site was accessible during this review.
+**Stack:** Next.js · React · Tailwind CSS · Progressive Web App  
+**Highlights:** Installability · Offline-aware UX · Support workflow
 
 ### [02 · Finance AI — Time-Series Research Pipeline](https://github.com/rudraksha127/Finance-Ai) · [Integration & QA report](https://github.com/rudraksha127/Finance-Ai/blob/main/docs/MVP_INTEGRATION_QA_REPORT.md)
 
 A reproducible financial-data research workflow spanning ingestion, data quality, feature/label generation, dataset versioning, model experiments, backtesting, an inference API, and a dashboard.
 
-**Stack:** Python · Time-series ML · API · TypeScript dashboard
-
-**Scope note:** This is a research-only system. The repository explicitly states that it does not execute live trades or broker orders.
+**Stack:** Python · Time-series ML · API · TypeScript dashboard  
+**Scope:** Research-only; it does not execute live trades or broker orders.
 
 ### [03 · Abhedya-Drishti / FraudLens AI — Cyber-Forensics Prototype](https://github.com/rudraksha127/Abhedya-Drishti)
 
 A financial transaction analysis prototype built around structured ingestion, vectorized data processing, transaction-graph exploration, and investigation-triage outputs.
 
-**Stack:** Next.js · FastAPI · Polars · DuckDB · NumPy
-
-**Scope note:** Algorithmic outputs are investigative leads for human review—not a determination of guilt or a claim of legal admissibility.
+**Stack:** Next.js · FastAPI · Polars · DuckDB · NumPy  
+**Scope:** Outputs are investigative leads for human review—not determinations of guilt or claims of legal admissibility.
 
 ### [04 · Portfolio — Interactive Developer Website](https://github.com/rudraksha127/Portfolio)
 
 A space-inspired portfolio interface with modular sections for projects, skills, education, experience, certifications, and contact.
 
-**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS · Three.js · Framer Motion
-
+**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS · Three.js · Framer Motion  
 **Explore:** Source code and implementation details are available in the repository.
 
 ## Technical toolkit
@@ -85,7 +80,9 @@ A space-inspired portfolio interface with modular sections for projects, skills,
 
 ## Credentials & coding profiles
 
-The existing profile lists AWS certifications across Cloud, AI, Architecture, Development, Data Engineering, Machine Learning, and Cloud Operations, plus other technical credentials. Use the resume link above for the current credential list; make sure the PDF is up to date before applying.
+**AWS certifications listed in the existing profile:** Cloud Practitioner · AI Practitioner · Solutions Architect Associate · Developer Associate · Data Engineer Associate · ML Engineer Associate · CloudOps Engineer Associate
+
+**Other credentials listed in the existing profile:** GitHub Copilot Certified · MongoDB Atlas Database Administrator · Red Hat Java EE (AD183) · NCC 'A' Certificate
 
 **Coding profiles:** [GeeksforGeeks](https://www.geeksforgeeks.org/user/rudraksha127) · [LeetCode](https://leetcode.com/rudraksha127) · [HackerRank](https://www.hackerrank.com/rudraksha127) · [CodeChef](https://www.codechef.com/users/rudraksha127)
 
