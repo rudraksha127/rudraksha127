@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Validate README local links, in-page anchors, placeholders, and SVG assets."""
+"""Validate README local links, anchors, placeholders, and SVG assets."""
 
 from __future__ import annotations
 
 import re
 import sys
-from defusedxml import ElementTree as ET
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+
+from defusedxml import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -15,18 +16,50 @@ README = ROOT / "README.md"
 HEADING_RE = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*#*\s*$", re.MULTILINE)
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)(?:\s+[^)]*)?\)")
 HTML_SRC_RE = re.compile(r"""(?:src|href)\s*=\s*["']([^"']+)["']""", re.IGNORECASE)
+FENCE_OPEN_RE = re.compile(r"^\s{0,3}(\x60{3,}|~{3,})")
+FENCE_CLOSE_RE = re.compile(r"^\s{0,3}(\x60+|~+)\s*$")
 PLACEHOLDER_PATTERNS = (
-    "yourusername",
-    "your_username",
-    "your-deployed-instance",
-    "YOUR_USERNAME",
-    'href="#"',
-    "](#)",
+    re.compile(r"\b(?:TODO|FIXME|TBD|PLACEHOLDER)\b", re.IGNORECASE),
+    re.compile(r"\[(?:your\s+name|your\s+email|your\s+url|your\s+username|project\s+name|insert\s+[^]]+)\]", re.IGNORECASE),
+    re.compile(r"https?://(?:www\.)?example\.(?:com|org|net)(?:[/\w?&=.#%-]*)?", re.IGNORECASE),
+    re.compile(r"\bYOUR_[A-Z0-9_]+\b"),
+    re.compile(r"\b(?:yourusername|your_username|your-deployed-instance)\b", re.IGNORECASE),
+    re.compile(r"""(?:href|src)\s*=\s*["']#?["']""", re.IGNORECASE),
+    re.compile(r"\]\(#\)"),
 )
+
+
+def strip_fenced_code(markdown: str) -> str:
+    """Remove fenced code blocks so examples cannot create links or headings."""
+    output: list[str] = []
+    fence_char: str | None = None
+    fence_size = 0
+
+    for line in markdown.splitlines():
+        if fence_char is None:
+            opening = FENCE_OPEN_RE.match(line)
+            if opening:
+                token = opening.group(1)
+                fence_char = token[0]
+                fence_size = len(token)
+                continue
+            output.append(line)
+            continue
+
+        closing = FENCE_CLOSE_RE.match(line)
+        if closing:
+            token = closing.group(1)
+            if token[0] == fence_char and len(token) >= fence_size:
+                fence_char = None
+                fence_size = 0
+
+    return "\n".join(output)
 
 
 def heading_slug(text: str) -> str:
     text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"\x60([^\x60]*)\x60", r"\1", text)
     text = text.lower().strip()
     text = re.sub(r"[^\w\- ]", "", text)
     return text.replace(" ", "-")
@@ -35,12 +68,26 @@ def heading_slug(text: str) -> str:
 def collect_anchors(markdown: str) -> set[str]:
     anchors: set[str] = set()
     counts: dict[str, int] = {}
-    for match in HEADING_RE.finditer(markdown):
+    visible_markdown = strip_fenced_code(markdown)
+
+    for match in HEADING_RE.finditer(visible_markdown):
         base = heading_slug(match.group(1))
         count = counts.get(base, 0)
         counts[base] = count + 1
         anchors.add(base if count == 0 else f"{base}-{count}")
+
     return anchors
+
+
+def find_placeholders(markdown: str) -> list[str]:
+    """Return common unfinished placeholders outside fenced examples."""
+    visible_markdown = strip_fenced_code(markdown)
+    found = {
+        match.group(0)
+        for pattern in PLACEHOLDER_PATTERNS
+        for match in pattern.finditer(visible_markdown)
+    }
+    return sorted(found, key=str.casefold)
 
 
 def main() -> int:
@@ -49,15 +96,15 @@ def main() -> int:
         return 1
 
     markdown = README.read_text(encoding="utf-8")
+    visible_markdown = strip_fenced_code(markdown)
     failures: list[str] = []
     anchors = collect_anchors(markdown)
 
-    for placeholder in PLACEHOLDER_PATTERNS:
-        if placeholder in markdown:
-            failures.append(f"Placeholder detected: {placeholder}")
+    for placeholder in find_placeholders(markdown):
+        failures.append(f"Placeholder detected: {placeholder}")
 
-    targets = MARKDOWN_LINK_RE.findall(markdown)
-    targets.extend(HTML_SRC_RE.findall(markdown))
+    targets = MARKDOWN_LINK_RE.findall(visible_markdown)
+    targets.extend(HTML_SRC_RE.findall(visible_markdown))
 
     checked_local = 0
     checked_anchors = 0
@@ -97,8 +144,8 @@ def main() -> int:
     for svg_path in svg_files:
         try:
             ET.parse(svg_path)
-        except ET.ParseError as exc:
-            failures.append(f"Invalid SVG XML: {svg_path.relative_to(ROOT)} ({exc})")
+        except Exception as exc:
+            failures.append(f"Invalid or unsafe SVG XML: {svg_path.relative_to(ROOT)} ({exc})")
 
     if failures:
         for failure in failures:
