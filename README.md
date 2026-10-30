@@ -76,7 +76,7 @@ A research-only financial-data workflow covering ingestion, validation, feature 
 - **Engineering areas:** Python, time-series data handling, reproducibility, chronological validation, typed API boundaries, audit trails, and experiment artefacts.
 - **Important boundary:** this is a research pipeline; it does not execute live trades or broker orders.
 - **Contribution evidence:** [ensemble and probability calibration](https://github.com/rudraksha127/Finance-Ai/commit/bf573cda9a77ef407cbb9fa8271832301446a00b) · [multimodal finance data layer](https://github.com/rudraksha127/Finance-Ai/commit/eb01246ae1bc770bcdf1140fd4304da5bd018356).
-- **Inspect:** [source](https://github.com/rudraksha127/Finance-Ai) · [MVP integration and QA report](https://github.com/rudraksha127/Finance-Ai/blob/main/docs/MVP_INTEGRATION_QA_REPORT.md) · [case study](docs/case-studies/finance-ai.md).
+- **Inspect:** [source](https://github.com/rudraksha127/Finance-Ai) · [MVP integration and QA report](https://github.com/rudraksha127/Finance-Ai/blob/99ede3c6482c0697aa62ab587c7803ace30e60a1/docs/MVP_INTEGRATION_QA_REPORT.md) · [case study](docs/case-studies/finance-ai.md).
 
 ### 03 · [Abhedya-Drishti / FraudLens AI — Transaction Analysis Prototype](https://github.com/rudraksha127/Abhedya-Drishti)
 
@@ -171,7 +171,7 @@ Acropolis Institute of Technology & Research, Indore
 
 ## Credentials & recognition
 
-Credential entries are being consolidated against issuer records. I will publish an item only with its exact issuer, title, issue/status details, and a verification URL or an explicit note that public verification is unavailable. See the [credential publication policy](docs/credentials/verification-policy.md).
+Credential entries are being consolidated against issuer records. I will publish an item only when an issuer-controlled verification page or shareable credential identifier can independently validate it; unverified badges and course-completion screenshots are excluded. See the [credential publication policy](docs/credentials/verification-policy.md).
 
 ## Current engineering focus
 
