@@ -2,7 +2,8 @@
 
 > Status: Repository documents an MVP integration and QA run dated 2026-09-08  
 > Repository: [rudraksha127/Finance-Ai](https://github.com/rudraksha127/Finance-Ai)  
-> QA report: [MVP integration and QA report](https://github.com/rudraksha127/Finance-Ai/blob/99ede3c6482c0697aa62ab587c7803ace30e60a1/docs/MVP_INTEGRATION_QA_REPORT.md)
+> QA report: [MVP integration and QA report](https://github.com/rudraksha127/Finance-Ai/blob/99ede3c6482c0697aa62ab587c7803ace30e60a1/docs/MVP_INTEGRATION_QA_REPORT.md)  
+> QA source revision: `99ede3c6482c0697aa62ab587c7803ace30e60a1`
 
 ## Problem space
 
