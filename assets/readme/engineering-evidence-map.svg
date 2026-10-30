@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering evidence map</title>
+  <desc id="desc">A layered diagram showing projects connected to frontend, backend, data, applied AI, architecture, quality, and verification evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/><stop offset=".55" stop-color="#12142B"/><stop offset="1" stop-color="#24134B"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".04"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#A5B4FC" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#020617" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="430" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+  <text x="54" y="54" fill="#A5F3FC" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3">ENGINEERING EVIDENCE MAP</text>
+  <text x="54" y="86" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Projects connect capabilities to inspectable proof</text>
+  <text x="54" y="111" fill="#9CA3AF" font-family="Inter,Arial,sans-serif" font-size="13">A portfolio is strongest when each claim leads to code, documentation, tests, or a verifiable result.</text>
+  <g filter="url(#shadow)">
+    <rect x="54" y="151" width="224" height="204" rx="18" fill="url(#surface)" stroke="#A78BFA" stroke-opacity=".5"/>
+    <text x="76" y="183" fill="#DDD6FE" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">PROJECTS</text>
+    <rect x="76" y="200" width="180" height="31" rx="9" fill="#6D28D9" fill-opacity=".48" stroke="#A78BFA" stroke-opacity=".6"/>
+    <text x="90" y="220" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">AI MANTHAN · PWA</text>
+    <rect x="76" y="240" width="180" height="31" rx="9" fill="#0E7490" fill-opacity=".38" stroke="#67E8F9" stroke-opacity=".55"/>
+    <text x="90" y="260" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">FINANCE AI · DATA</text>
+    <rect x="76" y="280" width="180" height="31" rx="9" fill="#6D28D9" fill-opacity=".38" stroke="#A78BFA" stroke-opacity=".55"/>
+    <text x="90" y="300" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="600">ABHEDYA · GRAPH</text>
+    <rect x="76" y="320" width="180" height="23" rx="7" fill="#334155" fill-opacity=".5" stroke="#94A3B8" stroke-opacity=".4"/>
+    <text x="90" y="336" fill="#E5E7EB" font-family="Inter,Arial,sans-serif" font-size="10.5">PORTFOLIO · FRONTEND</text>
+  </g>
+  <g stroke-linecap="round" fill="none">
+    <path d="M278 254 C315 254 311 188 351 188" stroke="#A78BFA" stroke-opacity=".75" stroke-width="2"/>
+    <path d="M278 254 C315 254 311 245 351 245" stroke="#67E8F9" stroke-opacity=".75" stroke-width="2"/>
+    <path d="M278 254 C315 254 311 302 351 302" stroke="#A78BFA" stroke-opacity=".6" stroke-width="2"/>
+    <path d="M569 245 H622" stroke="#C4B5FD" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M839 245 H892" stroke="#67E8F9" stroke-opacity=".7" stroke-width="2"/>
+  </g>
+  <g fill="#C4B5FD"><circle cx="351" cy="188" r="4"/><circle cx="351" cy="245" r="4"/><circle cx="351" cy="302" r="4"/></g>
+  <g filter="url(#shadow)">
+    <rect x="351" y="151" width="218" height="204" rx="18" fill="url(#surface)" stroke="#67E8F9" stroke-opacity=".45"/>
+    <text x="373" y="183" fill="#A5F3FC" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">CAPABILITIES</text>
+    <rect x="373" y="200" width="174" height="31" rx="9" fill="#164E63" fill-opacity=".56" stroke="#67E8F9" stroke-opacity=".55"/>
+    <text x="389" y="220" fill="#ECFEFF" font-family="Inter,Arial,sans-serif" font-size="12">Frontend & UX</text>
+    <rect x="373" y="240" width="174" height="31" rx="9" fill="#312E81" fill-opacity=".56" stroke="#A78BFA" stroke-opacity=".55"/>
+    <text x="389" y="260" fill="#F5F3FF" font-family="Inter,Arial,sans-serif" font-size="12">Backend & APIs</text>
+    <rect x="373" y="280" width="174" height="31" rx="9" fill="#164E63" fill-opacity=".56" stroke="#67E8F9" stroke-opacity=".55"/>
+    <text x="389" y="300" fill="#ECFEFF" font-family="Inter,Arial,sans-serif" font-size="12">Data & AI</text>
+    <rect x="373" y="320" width="174" height="23" rx="7" fill="#334155" fill-opacity=".5" stroke="#94A3B8" stroke-opacity=".4"/>
+    <text x="389" y="336" fill="#E5E7EB" font-family="Inter,Arial,sans-serif" font-size="10.5">Architecture & design</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="622" y="151" width="217" height="204" rx="18" fill="url(#surface)" stroke="#A78BFA" stroke-opacity=".5"/>
+    <text x="644" y="183" fill="#DDD6FE" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">QUALITY PRACTICES</text>
+    <rect x="644" y="200" width="173" height="31" rx="9" fill="#312E81" fill-opacity=".58" stroke="#A78BFA" stroke-opacity=".55"/>
+    <text x="660" y="220" fill="#F5F3FF" font-family="Inter,Arial,sans-serif" font-size="12">Testing & regression</text>
+    <rect x="644" y="240" width="173" height="31" rx="9" fill="#164E63" fill-opacity=".56" stroke="#67E8F9" stroke-opacity=".55"/>
+    <text x="660" y="260" fill="#ECFEFF" font-family="Inter,Arial,sans-serif" font-size="12">Security & privacy</text>
+    <rect x="644" y="280" width="173" height="31" rx="9" fill="#312E81" fill-opacity=".58" stroke="#A78BFA" stroke-opacity=".55"/>
+    <text x="660" y="300" fill="#F5F3FF" font-family="Inter,Arial,sans-serif" font-size="12">Reliability & performance</text>
+    <rect x="644" y="320" width="173" height="23" rx="7" fill="#334155" fill-opacity=".5" stroke="#94A3B8" stroke-opacity=".4"/>
+    <text x="660" y="336" fill="#E5E7EB" font-family="Inter,Arial,sans-serif" font-size="10.5">CI and delivery</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="892" y="151" width="254" height="204" rx="18" fill="url(#surface)" stroke="#67E8F9" stroke-opacity=".5"/>
+    <text x="914" y="183" fill="#A5F3FC" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">VERIFIABLE EVIDENCE</text>
+    <rect x="914" y="200" width="210" height="31" rx="9" fill="#164E63" fill-opacity=".56" stroke="#67E8F9" stroke-opacity=".55"/>
+    <text x="930" y="220" fill="#ECFEFF" font-family="Inter,Arial,sans-serif" font-size="12">Source code & commits</text>
+    <rect x="914" y="240" width="210" height="31" rx="9" fill="#312E81" fill-opacity=".56" stroke="#A78BFA" stroke-opacity=".55"/>
+    <text x="930" y="260" fill="#F5F3FF" font-family="Inter,Arial,sans-serif" font-size="12">Architecture & case studies</text>
+    <rect x="914" y="280" width="210" height="31" rx="9" fill="#164E63" fill-opacity=".56" stroke="#67E8F9" stroke-opacity=".55"/>
+    <text x="930" y="300" fill="#ECFEFF" font-family="Inter,Arial,sans-serif" font-size="12">Tests & dated reports</text>
+    <rect x="914" y="320" width="210" height="23" rx="7" fill="#334155" fill-opacity=".5" stroke="#94A3B8" stroke-opacity=".4"/>
+    <text x="930" y="336" fill="#E5E7EB" font-family="Inter,Arial,sans-serif" font-size="10.5">Demo & issuer verification</text>
+  </g>
+  <text x="54" y="393" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="11">A capability is strongest when a reviewer can trace it from a project description to the implementation and its verification.</text>
+  <text x="1147" y="393" text-anchor="end" fill="#A78BFA" font-family="Inter,Arial,sans-serif" font-size="10" letter-spacing="1.5">MIDNIGHT AURORA</text>
+</svg>
