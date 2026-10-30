@@ -1,8 +1,16 @@
 """Unit tests for the profile README validator."""
 
+import tempfile
 import unittest
+from pathlib import Path
 
-from validate_profile import collect_anchors, find_placeholders, strip_fenced_code
+from validate_profile import (
+    collect_anchors,
+    find_placeholders,
+    heading_slug,
+    strip_fenced_code,
+    validate_svg,
+)
 
 
 class ProfileValidatorTests(unittest.TestCase):
@@ -22,6 +30,10 @@ class ProfileValidatorTests(unittest.TestCase):
     def test_duplicate_visible_headings_get_distinct_anchors(self) -> None:
         markdown = "## Overview\n## Overview\n"
         self.assertEqual(collect_anchors(markdown), {"overview", "overview-1"})
+
+    def test_linked_heading_slug_uses_visible_label_not_url(self) -> None:
+        slug = heading_slug("01 · [AI MANTHAN 2.0 — Event Platform](https://example.org/path)")
+        self.assertEqual(slug, "01--ai-manthan-20--event-platform")
 
     def test_code_fence_contents_are_removed(self) -> None:
         fence = chr(96) * 3
@@ -52,6 +64,22 @@ class ProfileValidatorTests(unittest.TestCase):
             "https://github.com/rudraksha127\n"
         )
         self.assertEqual(find_placeholders(markdown), [])
+
+    def test_svg_root_is_required(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            bad_svg = Path(directory) / "not-svg.svg"
+            bad_svg.write_text("<html/>", encoding="utf-8")
+            with self.assertRaises(ValueError):
+                validate_svg(bad_svg)
+
+    def test_valid_svg_root_is_accepted(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            good_svg = Path(directory) / "valid.svg"
+            good_svg.write_text(
+                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"/>',
+                encoding="utf-8",
+            )
+            validate_svg(good_svg)
 
 
 if __name__ == "__main__":
