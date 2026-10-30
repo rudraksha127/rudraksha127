@@ -25,7 +25,7 @@ This directory contains deeper evidence behind the profile README. The README is
 3. **Historical test reports are dated.** A report records the state at the time it was run; it is not a guarantee that the current branch passes.
 4. **Ownership is not inferred from repository existence.** The profile does not claim sole authorship where project attribution or team contributions have not been documented.
 5. **Metrics need a method.** A performance, quality, user, or scale claim should include its measurement method, environment, date, and source.
-7. **Attribution is explicit.** Repository-level capabilities are not automatically individual achievements. Link personally authored commits, pull requests, team responsibilities, and AI-assisted work accurately.
+6. **Attribution is explicit.** Repository-level capabilities are not automatically individual achievements. Link personally authored commits, pull requests, team responsibilities, and AI-assisted work accurately.
 6. **Sensitive information stays private.** Never publish API keys, private credential records, student information, personal data, or internal institutional details.
 
 ## Updating a case study
