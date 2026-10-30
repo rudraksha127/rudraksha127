@@ -13,6 +13,10 @@ Describe the user problem, intended users, constraints, and explicit non-goals.
 
 State the work personally completed. Separate individual contributions from team or repository-wide work.
 
+## Contribution and attribution
+
+List personally implemented features and link to their commits or pull requests. Separate individual work, team contributions, and AI-assisted implementation. Do not claim ownership of repository-wide functionality unless it is supported by the history and can be explained.
+
 ## System overview
 
 Describe the main components and their responsibilities.
