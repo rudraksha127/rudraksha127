@@ -26,7 +26,7 @@ Principle: every important capability should lead to inspectable evidence.
   <a href="#featured-engineering-work">Projects</a> ·
   <a href="#engineering-practice">Engineering Practice</a> ·
   <a href="#technical-toolkit">Toolkit</a> ·
-  <a href="#computer-science--problem-solving">CS & DSA</a> ·
+  <a href="#computer-science-and-problem-solving">CS & DSA</a> ·
   <a href="#experience--education">Experience</a> ·
   <a href="#contact">Contact</a>
 </p>
@@ -57,7 +57,7 @@ I enjoy the complete engineering loop: understanding a problem, translating it i
 
 ## Featured engineering work
 
-The projects below demonstrate different parts of my current engineering practice. Their stated scope is intentionally specific; repository documentation is the source of truth for implementation details and status.
+The projects below demonstrate different problem spaces and engineering approaches. Public commit links are included where they provide useful contribution evidence. A repository's full feature set should not be confused with one person's individual contribution; the linked case studies call out attribution boundaries.
 
 ### 01 · [AI MANTHAN 2.0 — Event Platform & PWA](https://github.com/rudraksha127/AI-MANTHAN-2K26)
 
@@ -65,6 +65,7 @@ A mobile-first event platform repository for AI MANTHAN 2.0, built around an ins
 
 - **Engineering areas:** Next.js App Router, responsive interfaces, service-worker lifecycle, offline fallback, IndexedDB-backed support queue, and content-driven routes.
 - **Interesting problem space:** preserving useful user workflows when connectivity is unreliable and keeping event information discoverable across devices.
+- **Contribution evidence:** [responsive media and deployment build optimisation](https://github.com/rudraksha127/AI-MANTHAN-2K26/commit/64774cda51ca24ca9d02a5f823d351375cdd299a) · [deployment build fix](https://github.com/rudraksha127/AI-MANTHAN-2K26/commit/a81a779b75a24aff7ef2d1bb7e19ac4c2dd96120).
 - **Status:** public source repository; event site: [nex-ai.in](https://www.nex-ai.in).
 - **Inspect:** [source](https://github.com/rudraksha127/AI-MANTHAN-2K26) · [project documentation](https://github.com/rudraksha127/AI-MANTHAN-2K26/blob/main/README.md) · [case study](docs/case-studies/ai-manthan.md).
 
@@ -74,6 +75,7 @@ A research-only financial-data workflow covering ingestion, validation, feature 
 
 - **Engineering areas:** Python, time-series data handling, reproducibility, chronological validation, typed API boundaries, audit trails, and experiment artefacts.
 - **Important boundary:** this is a research pipeline; it does not execute live trades or broker orders.
+- **Contribution evidence:** [ensemble and probability calibration](https://github.com/rudraksha127/Finance-Ai/commit/bf573cda9a77ef407cbb9fa8271832301446a00b) · [multimodal finance data layer](https://github.com/rudraksha127/Finance-Ai/commit/eb01246ae1bc770bcdf1140fd4304da5bd018356).
 - **Inspect:** [source](https://github.com/rudraksha127/Finance-Ai) · [MVP integration and QA report](https://github.com/rudraksha127/Finance-Ai/blob/main/docs/MVP_INTEGRATION_QA_REPORT.md) · [case study](docs/case-studies/finance-ai.md).
 
 ### 03 · [Abhedya-Drishti / FraudLens AI — Transaction Analysis Prototype](https://github.com/rudraksha127/Abhedya-Drishti)
@@ -82,6 +84,7 @@ A financial transaction analysis prototype focused on structured data ingestion,
 
 - **Engineering areas:** Next.js, FastAPI, Polars, DuckDB, NumPy-based graph representations, typed frontend/backend contracts, and regression-oriented testing.
 - **Important boundary:** analytical outputs are leads for qualified human review. They are not determinations of guilt, legal advice, or claims of court admissibility.
+- **Contribution evidence:** [multi-party analysis, repeat detection, money trails, and run orchestration](https://github.com/rudraksha127/Abhedya-Drishti/commit/c10b3a9fcaffb6b153572f8c62700c740ae58fcd).
 - **Inspect:** [source](https://github.com/rudraksha127/Abhedya-Drishti) · [project documentation](https://github.com/rudraksha127/Abhedya-Drishti/blob/main/README.md) · [case study](docs/case-studies/abhedya-drishti.md).
 
 ### 04 · [Developer Portfolio — Interactive Website](https://github.com/rudraksha127/Portfolio)
@@ -89,7 +92,8 @@ A financial transaction analysis prototype focused on structured data ingestion,
 A modular portfolio website using a modern React/Next.js stack, with sections for projects, skills, education, experience, certifications, and contact.
 
 - **Engineering areas:** component organisation, responsive UI, TypeScript, animation, and a Three.js-based visual layer.
-- **Status:** source repository; this profile links to the implementation rather than claiming an independently verified production deployment.
+- **Attribution note:** the public history includes AI-assisted implementation commits; this repository is presented as a portfolio-design/build artifact, not as a claim that every line was independently authored. See the case study for the boundary.
+- **Status:** source repository; no independently verified production deployment is claimed.
 - **Inspect:** [source](https://github.com/rudraksha127/Portfolio) · [project documentation](https://github.com/rudraksha127/Portfolio/blob/main/README.md) · [case study](docs/case-studies/developer-portfolio.md).
 
 <p align="center">
@@ -116,7 +120,7 @@ I use the following practices as a working engineering checklist. The linked not
 
 Read the expanded [engineering standards and working checklist](docs/engineering/engineering-standards.md).
 
-## Computer Science & problem-solving
+## Computer Science and Problem-Solving
 
 Core subjects and concepts I actively study and strengthen:
 
@@ -169,7 +173,7 @@ Acropolis Institute of Technology & Research, Indore
 
 ## Credentials & recognition
 
-I publish certifications and formal achievements with the issuing organisation and a direct verification record wherever available. I intentionally avoid unlinked badge counts and credentials that a reviewer cannot independently verify.
+Credential entries are being consolidated against issuer records. I will publish an item only with its exact issuer, title, issue/status details, and a verification URL or an explicit note that public verification is unavailable. See the [credential publication policy](docs/credentials/verification-policy.md).
 
 ## Current engineering focus
 
