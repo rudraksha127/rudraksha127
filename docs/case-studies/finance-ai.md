@@ -8,6 +8,12 @@
 
 A financial time-series research workflow can produce misleading results when data leakage, inconsistent timestamps, mutable datasets, or optimistic evaluation are allowed. The repository is organised around reproducibility and chronological evaluation rather than live execution.
 
+## Contribution and attribution
+
+The public history includes commits authored under @rudraksha127 for [ensemble and probability calibration](https://github.com/rudraksha127/Finance-Ai/commit/bf573cda9a77ef407cbb9fa8271832301446a00b) and the [multimodal finance data layer](https://github.com/rudraksha127/Finance-Ai/commit/eb01246ae1bc770bcdf1140fd4304da5bd018356). A separate [system-wide cleanup and E2E verification commit](https://github.com/rudraksha127/Finance-Ai/commit/06b1e045dc29603a7cdd98e8dc5e3c795e83c541) explicitly lists Codebuff as a co-author. These links are commit-level evidence, not a claim that every project subsystem was independently authored without assistance.
+
+In interviews, identify the design, implementation, debugging, and validation work personally performed, and disclose AI-assisted work accurately.
+
 ## Repository-documented pipeline
 
 ~~~mermaid
