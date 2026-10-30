@@ -17,6 +17,10 @@ A personal portfolio website provides a structured way to present projects, skil
 
 Exact dependency versions should be taken from the current package manifest, not copied from an older README.
 
+## Contribution and attribution
+
+The public history includes a portfolio-theme pull request merged under @rudraksha127, while several implementation commits in that history are authored by Claude. This case study therefore describes the repository's architecture and design, not a claim that every implementation line was independently authored. Present personal work as requirements/design direction, review, integration, or specific code changes only where you can point to the corresponding commit or pull request and explain it.
+
 ## Design and implementation considerations
 
 - Keep content separate from presentation where practical.
