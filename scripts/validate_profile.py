@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 from defusedxml import ElementTree as ET
+from defusedxml.common import DefusedXmlException
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
@@ -27,6 +28,7 @@ PLACEHOLDER_PATTERNS = (
     re.compile(r"""(?:href|src)\s*=\s*["']#?["']""", re.IGNORECASE),
     re.compile(r"\]\(#\)"),
 )
+SVG_ROOT = "{http://www.w3.org/2000/svg}svg"
 
 
 def strip_fenced_code(markdown: str) -> str:
@@ -57,6 +59,7 @@ def strip_fenced_code(markdown: str) -> str:
 
 
 def heading_slug(text: str) -> str:
+    """Approximate GitHub's generated heading slug for visible heading text."""
     text = re.sub(r"<[^>]+>", "", text)
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
     text = re.sub(r"\x60([^\x60]*)\x60", r"\1", text)
@@ -88,6 +91,13 @@ def find_placeholders(markdown: str) -> list[str]:
         for match in pattern.finditer(visible_markdown)
     }
     return sorted(found, key=str.casefold)
+
+
+def validate_svg(svg_path: Path) -> None:
+    """Parse a safe XML document and require the actual SVG root element."""
+    root = ET.parse(svg_path).getroot()
+    if root.tag != SVG_ROOT:
+        raise ValueError(f"root element must be {SVG_ROOT!r}, got {root.tag!r}")
 
 
 def main() -> int:
@@ -143,9 +153,9 @@ def main() -> int:
 
     for svg_path in svg_files:
         try:
-            ET.parse(svg_path)
-        except Exception as exc:
-            failures.append(f"Invalid or unsafe SVG XML: {svg_path.relative_to(ROOT)} ({exc})")
+            validate_svg(svg_path)
+        except (ET.ParseError, DefusedXmlException, ValueError, OSError) as exc:
+            failures.append(f"Invalid or unsafe SVG asset: {svg_path.relative_to(ROOT)} ({exc})")
 
     if failures:
         for failure in failures:
