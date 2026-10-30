@@ -29,7 +29,7 @@ def heading_slug(text: str) -> str:
     text = re.sub(r"<[^>]+>", "", text)
     text = text.lower().strip()
     text = re.sub(r"[^\w\- ]", "", text)
-    return re.sub(r"\s+", "-", text)
+    return text.replace(" ", "-")
 
 
 def collect_anchors(markdown: str) -> set[str]:
