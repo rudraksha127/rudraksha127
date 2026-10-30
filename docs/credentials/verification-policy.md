@@ -20,6 +20,6 @@ Professional credentials are useful only when a reviewer can identify the issuer
 - Do not use a certification count unless every item in the count is verified and current.
 - Do not alter official credential names to sound more senior.
 - Do not publish screenshots containing email addresses, account identifiers, or private profile details.
-- If an issuer has no public verification page, label the record accordingly rather than implying independent verification.
+- If an issuer provides no public verification page or shareable credential identifier, exclude the credential from the public profile until an independently verifiable record is available.
 
-The profile README will include credential entries only when enough information is available for a reviewer to validate them. This keeps the public profile accurate and auditable.
+The profile README will include credential entries only when a reviewer can independently verify the award through an issuer-controlled record. Course completion and unverified badge images are not sufficient.
