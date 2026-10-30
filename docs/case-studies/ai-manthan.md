@@ -21,6 +21,12 @@ The project README describes a Next.js App Router application with:
 
 The repository documents Next.js 16, React 19, and Tailwind CSS v4. Re-check package manifests before quoting exact versions in future updates.
 
+## Contribution and attribution
+
+The public commit history includes commits authored under @rudraksha127 for [responsive media and deployment-build optimisation](https://github.com/rudraksha127/AI-MANTHAN-2K26/commit/64774cda51ca24ca9d02a5f823d351375cdd299a) and a [deployment build fix](https://github.com/rudraksha127/AI-MANTHAN-2K26/commit/a81a779b75a24aff7ef2d1bb7e19ac4c2dd96120). The same repository history also contains commits from other contributors. These links support the specific commit-level examples; they do not imply sole authorship of the complete event platform.
+
+For interviews, describe the exact files, behaviour, and decisions personally implemented, and distinguish those from team-owned features.
+
 ## Architecture sketch
 
 ~~~mermaid
