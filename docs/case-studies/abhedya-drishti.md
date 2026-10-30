@@ -7,6 +7,12 @@
 
 Large transaction datasets can be difficult to inspect through flat tables alone. This prototype explores structured ingestion, fast analytical processing, graph-based relationship exploration, and investigator-oriented triage views.
 
+## Contribution and attribution
+
+The public history includes a commit authored under @rudraksha127 for [multi-party analysis, repeat detection, money trails, and run orchestration](https://github.com/rudraksha127/Abhedya-Drishti/commit/c10b3a9fcaffb6b153572f8c62700c740ae58fcd). This is a concrete commit-level reference; it should not be expanded into a claim of sole authorship of every subsystem without further evidence.
+
+For an interview, be prepared to walk through the relevant code paths, data structures, correctness checks, and limitations in the linked change.
+
 ## Repository-documented components
 
 The project README describes:
@@ -48,7 +54,7 @@ This profile describes a software prototype for analytical triage. It does **not
 
 ## Verification
 
-The repository README reports a 271-test backend suite and documents additional frontend and end-to-end checks. These counts were not rerun during this profile update. Any current test claim should link to a fresh workflow run and the exact commit tested.
+The repository README documents backend, frontend, and end-to-end test suites. Their current pass state was not independently rerun during this profile update, so no numeric test total is repeated here. A current test claim should link to a fresh workflow run and the exact commit tested.
 
 ## Next evidence to add
 
