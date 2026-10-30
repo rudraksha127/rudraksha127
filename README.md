@@ -161,9 +161,7 @@ Technologies are selected per project. I prefer a small, well-understood stack o
 
 ### Training and instruction
 
-**Approximately two years of training / teaching experience** across digital productivity and introductory technical subjects.
-
-Topics covered include MS Office, programming fundamentals, PageMaker, Photoshop, and Tally. This experience strengthened my ability to explain concepts, structure learning, and communicate with people at different levels of technical familiarity.
+**Training and instruction exposure:** MS Office, programming fundamentals, PageMaker, Photoshop, and Tally. I use this experience to strengthen how I explain technical concepts and communicate with learners. Formal role, organisation, and dates are not listed here because a public supporting record has not yet been added.
 
 ### Education
 
